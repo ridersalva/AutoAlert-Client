@@ -1,9 +1,12 @@
 import React from 'react'
 import SignUpForm from '../../components/AuthElements/SignUpForm'
+import './auth.css'
 
 function SignUpPage() {
   return (
-    <SignUpForm />
+    <div className='Log'>
+      <SignUpForm />
+    </div>
   )
 }
 export default SignUpPage

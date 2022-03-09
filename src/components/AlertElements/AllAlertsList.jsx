@@ -1,5 +1,6 @@
 import { ListGroup } from 'react-bootstrap'
 import { reduceDate } from "../../utils/index"
+import './AlertElement.css'
 const AllAlertList = ({ alerts }) => {
 
     return (
